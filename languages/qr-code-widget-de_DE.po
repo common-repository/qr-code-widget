@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code Widget v3.0.0\n"
+"Report-Msgid-Bugs-To: wjatscheslaw@poluschin.info\n"
+"POT-Creation-Date: 2011-04-08 16:35:46\n"
+"PO-Revision-Date: 2013-05-14 10:31:43+0000\n"
+"Last-Translator: wjatscheslaw@poluschin.info\n"
+"Language-Team: qr-code-widget wjatscheslaw@poluschin.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/qr-code-admin.php:29
+#@ qr-code-widget
+msgid "QR code status report"
+msgstr "Qr-Code Status Bericht"
+
+#: includes/qr-code-admin.php:34
+#@ qr-code-widget
+msgid "Cache directory is writable"
+msgstr "Cache Verzeichnis ist beschreibbar"
+
+#: includes/qr-code-admin.php:42
+#, php-format
+#@ qr-code-widget
+msgid "You have %d images in cache"
+msgstr "Es sind %d Bilder im Cache Verzeichnis"
+
+#: includes/qr-code-admin.php:52
+#@ qr-code-widget
+msgid "Clear Cache"
+msgstr "Cache leeren"
+
+#: includes/qr-code-admin.php:64
+#@ qr-code-widget
+msgid "Try to create Cache"
+msgstr "Versuche Cache Verzeichnis zu erstellen"
+
+#: includes/qr-code-admin.php:105
+#: includes/qr-code-admin.php:308
+#@ qr-code-widget
+msgid "QR code settings"
+msgstr "Qr-Code Einstellungen"
+
+#: includes/qr-code-admin.php:125
+#: includes/qr-code-admin.php:311
+#: includes/qr-code-suite.php:126
+#@ qr-code-widget
+msgid "QR code format"
+msgstr "Qr-Code Bildformat"
+
+#: includes/qr-code-admin.php:127
+#: includes/qr-code-admin.php:313
+#: includes/qr-code-suite.php:127
+#@ qr-code-widget
+msgid "PNG"
+msgstr "PNG"
+
+#: includes/qr-code-admin.php:128
+#: includes/qr-code-admin.php:314
+#: includes/qr-code-suite.php:128
+#@ qr-code-widget
+msgid "Jpeg"
+msgstr "Jpeg"
+
+#: includes/qr-code-admin.php:129
+#@ qr-code-widget
+msgid "Image format PNG or Jpeg."
+msgstr "Bildformat PNG oder Jpeg."
+
+#: includes/qr-code-admin.php:133
+#: includes/qr-code-admin.php:319
+#: includes/qr-code-suite.php:154
+#@ qr-code-widget
+msgid "QR code size"
+msgstr "Qr-Code Größe "
+
+#: includes/qr-code-admin.php:136
+#: includes/qr-code-admin.php:322
+#: includes/qr-code-suite.php:156
+#@ qr-code-widget
+msgid "Small"
+msgstr "Klein"
+
+#: includes/qr-code-admin.php:137
+#: includes/qr-code-admin.php:323
+#: includes/qr-code-suite.php:157
+#@ qr-code-widget
+msgid "Medium"
+msgstr "Mittel"
+
+#: includes/qr-code-admin.php:138
+#: includes/qr-code-admin.php:324
+#: includes/qr-code-suite.php:158
+#@ qr-code-widget
+msgid "Large"
+msgstr "Gross"
+
+#: includes/qr-code-admin.php:139
+#: includes/qr-code-admin.php:325
+#: includes/qr-code-suite.php:159
+#@ qr-code-widget
+msgid "XXL"
+msgstr "Sehr Gross"
+
+#: includes/qr-code-admin.php:141
+#@ qr-code-widget
+msgid "Size of QR code image"
+msgstr "Größe des Qr-Code Bildes."
+
+#: includes/qr-code-admin.php:145
+#: includes/qr-code-admin.php:331
+#: includes/qr-code-suite.php:145
+#@ qr-code-widget
+msgid "Level of error correction"
+msgstr "Stärke der Fehlerkorrektur."
+
+#: includes/qr-code-admin.php:159
+#: includes/qr-code-admin.php:344
+#: includes/qr-code-suite.php:175
+#@ qr-code-widget
+msgid "Disable Cache"
+msgstr "Cache deaktivieren"
+
+#: includes/qr-code-admin.php:161
+#: includes/qr-code-admin.php:187
+#: includes/qr-code-admin.php:348
+#: includes/qr-code-admin.php:383
+#: includes/qr-code-suite.php:132
+#@ qr-code-widget
+msgid "No"
+msgstr "Nein"
+
+#: includes/qr-code-admin.php:162
+#: includes/qr-code-admin.php:188
+#: includes/qr-code-admin.php:351
+#: includes/qr-code-admin.php:386
+#: includes/qr-code-suite.php:133
+#: includes/qr-code-suite.php:177
+#@ qr-code-widget
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/qr-code-admin.php:167
+#@ qr-code-widget
+msgid "Color settings"
+msgstr "Farbeinstellungen."
+
+#: includes/qr-code-admin.php:170
+#@ qr-code-widget
+msgid "Code Color"
+msgstr "Farbe des Codes"
+
+#: includes/qr-code-admin.php:173
+#: includes/qr-code-admin.php:364
+#@ qr-code-widget
+msgid "Set Color for QR code"
+msgstr "Farbe für das Code."
+
+#: includes/qr-code-admin.php:177
+#: includes/qr-code-admin.php:368
+#: includes/qr-code-suite.php:136
+#@ qr-code-widget
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: includes/qr-code-admin.php:180
+#: includes/qr-code-admin.php:373
+#@ qr-code-widget
+msgid "Set background Color for QR code"
+msgstr "Hintergrundfarbe für das Qr-Code"
+
+#: includes/qr-code-admin.php:184
+#: includes/qr-code-suite.php:131
+#@ qr-code-widget
+msgid "Transparent background"
+msgstr "Transparentes Hintergrund"
+
+#: includes/qr-code-admin.php:189
+#: includes/qr-code-admin.php:388
+#@ qr-code-widget
+msgid "Set transparency for QR code background. <b>PNG Only</b>"
+msgstr "Hintergrund Farbe wird als Transparent definiert. <b>Nur für PNG Format</b>"
+
+#: includes/qr-code-admin.php:193
+#: includes/qr-code-admin.php:393
+#@ qr-code-widget
+msgid "Save Changes"
+msgstr "Änderungen übernehmen"
+
+#: includes/qr-code-admin.php:198
+#@ qr-code-widget
+msgid "Test Images"
+msgstr "Beispiel Bilder"
+
+#: includes/qr-code-admin.php:202
+#@ qr-code-widget
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/qr-code-admin.php:203
+#@ qr-code-widget
+msgid "Image"
+msgstr "Bild"
+
+#: includes/qr-code-admin.php:204
+#@ qr-code-widget
+msgid "HTML Source"
+msgstr "HTML Code"
+
+#: includes/qr-code-admin.php:256
+#@ qr-code-widget
+msgid "<h2>QR code default settings for Widgets</h2>"
+msgstr "<h2>Qr-Code Standard Einstellungen für die Widgets</h2>"
+
+#: includes/qr-code-admin.php:282
+#@ qr-code-widget
+msgid "QR code Widget settings"
+msgstr "Qr-Code Widget Einstellungen"
+
+#: includes/qr-code-admin.php:285
+#: includes/qr-code-admin.php:288
+#@ qr-code-widget
+msgid "Widget Title"
+msgstr "Widget Titel"
+
+#: includes/qr-code-admin.php:292
+#: includes/qr-code-suite.php:163
+#@ qr-code-widget
+msgid "Code to display before Widget"
+msgstr "Code vor dem Widget anzeigen"
+
+#: includes/qr-code-admin.php:296
+#: includes/qr-code-admin.php:304
+#@ qr-code-widget
+msgid "Can be HTML"
+msgstr "Es kann auch HTML sein"
+
+#: includes/qr-code-admin.php:300
+#: includes/qr-code-suite.php:167
+#@ qr-code-widget
+msgid "Code to display after Widget"
+msgstr "Code nach dem Widget anzeigen"
+
+#: includes/qr-code-admin.php:315
+#@ qr-code-widget
+msgid "Image format PNG or Jpeg"
+msgstr "Bildformat png oder jpeg"
+
+#: includes/qr-code-admin.php:327
+#@ qr-code-widget
+msgid "Size of QR code"
+msgstr "Qr-Code Bildgröße "
+
+#: includes/qr-code-admin.php:357
+#@ qr-code-widget
+msgid "Color Settings"
+msgstr "Farbeinstellungen"
+
+#: includes/qr-code-admin.php:360
+#@ qr-code-widget
+msgid "code Color"
+msgstr "Code Farbe"
+
+#: includes/qr-code-admin.php:378
+#@ qr-code-widget
+msgid "Background transparency"
+msgstr "Hintergrund transparenz"
+
+#: includes/qr-code-admin.php:406
+#@ qr-code-widget
+msgid "Cache cleared"
+msgstr "Cache geleert"
+
+#: includes/qr-code-admin.php:463
+#@ qr-code-widget
+msgid "Cache created"
+msgstr "Cache Verzeichnis erfolgreich erstellt"
+
+#: includes/qr-code-admin.php:464
+#@ qr-code-widget
+msgid "Can't create Cache"
+msgstr "Cache Verzeichnis konnte nicht erstellt werden"
+
+#: includes/qr-code-suite.php:122
+#@ qr-code-widget
+msgid "Title"
+msgstr "Titel"
+
+#: includes/qr-code-suite.php:131
+#@ qr-code-widget
+msgid "(png only)"
+msgstr "(nur png)"
+
+#: includes/qr-code-suite.php:140
+#@ qr-code-widget
+msgid "Code Color:"
+msgstr "Code Farbe:"
+
+#: includes/qr-code-suite.php:171
+#@ qr-code-widget
+msgid "Alternative text for this QR code"
+msgstr "Alternativer Text für den Qr-Code"
+
+#: includes/qr-code-suite.php:176
+#@ qr-code-widget
+msgid "NO"
+msgstr "Nein"
+
+#. translators: plugin header field 'Name'
+#: qr-code-widget.php:0
+#@ qr-code-widget
+msgid "QR Code Widget"
+msgstr "Qr-Code Widget"
+
+#. translators: plugin header field 'PluginURI'
+#: qr-code-widget.php:0
+#@ qr-code-widget
+msgid "http://www.poluschin.info/qr-code-widget/"
+msgstr "http://www.poluschin.info/qr-code-widget/"
+
+#. translators: plugin header field 'Description'
+#: qr-code-widget.php:0
+#@ qr-code-widget
+msgid "QR Code generator for your blog with Widget support"
+msgstr "Qr-Code Generator mit Widget Unterstützung für ihren Blog"
+
+#. translators: plugin header field 'Author'
+#: qr-code-widget.php:0
+#@ qr-code-widget
+msgid "Wjatscheslaw Poluschin <wjatscheslaw@poluschin.info>"
+msgstr "Wjatscheslaw Poluschin <wjatscheslaw@poluschin.info>"
+
+#. translators: plugin header field 'AuthorURI'
+#: qr-code-widget.php:0
+#@ qr-code-widget
+msgid "http://www.poluschin.info"
+msgstr "http://www.poluschin.info"
+
+#: includes/qr-code-admin.php:21
+#@ qr-code-widget
+msgid "QrCode > Shortcode settings"
+msgstr "QrCode > Shortcode einstellungen"
+
+#: includes/qr-code-admin.php:21
+#@ qr-code-widget
+msgid "Shortcode Defaults"
+msgstr "Shortcode Standards"
+
+#: includes/qr-code-admin.php:22
+#@ qr-code-widget
+msgid "QrCode > Widget settings"
+msgstr "QrCode > Widget einstellungen"
+
+#: includes/qr-code-admin.php:22
+#@ qr-code-widget
+msgid "Widget Defaults"
+msgstr "Widget Standards"
+
+#: includes/qr-code-admin.php:49
+#@ qr-code-widget
+msgid "You are about to delete all images from Cache. This action can not be undone! OK to continue, Cancel to stop."
+msgstr "Sie sind dabei, alle Bilder von Cache zu löschen. Diese Aktion kann nicht rückgängig gemacht werden! OK, um fortzufahren, Abbrechen, um zu stoppen."
+
+#: includes/qr-code-admin.php:57
+#, php-format
+#@ qr-code-widget
+msgid "<p>The intermediate storage of images is disabled. Images are re-created every time and embedded in the HTML code. (CPU-heavy!)<br /> In order to save the CPU resources create the cache folder %s and make sure that the web server can write to it.</p>"
+msgstr "Die Zwischenspeicherung von Bildern ist deaktiviert. Bilder werden jedes Mal neu erstellt und in den HTML-Code eingebettet . (CPU-Intensiv!) <br /> Um CPU-Ressourcen zu schonen erstellen den Cache-Ordner %s und stellen Sie sicher, dass dieser vom Web-Server beschrieben werden kann."
+
+#: includes/qr-code-admin.php:81
+#@ qr-code-widget
+msgid "<h2>QR code default settings for short-codes</h2>"
+msgstr "QR code standard einstellungen für short-codes"
+
+#: includes/qr-code-admin.php:108
+#@ qr-code-widget
+msgid "You can define default values for your parameters by using the <strong>Shortcode Defaults</strong> on the QR code page."
+msgstr "Unter <strong>Shortcode Standards</strong  können Sie Standardwerte für Ihre Shortcode Parameter definieren."
+
+#: includes/qr-code-admin.php:110
+#@ qr-code-widget
+msgid "Default values will be used instead of missed/unset parameters on your short codes."
+msgstr "Nicht gesezte parameter in dem Shortcode werden durch Standard werte ersetzt."
+
+#: includes/qr-code-admin.php:112
+#@ qr-code-widget
+msgid "For example: "
+msgstr "Zum Beispiel:"
+
+#: includes/qr-code-admin.php:114
+#@ qr-code-widget
+msgid "will be expand to "
+msgstr "wird ergänzt zu "
+
+#: includes/qr-code-admin.php:117
+#@ qr-code-widget
+msgid "All Shortcode variables and parameters:"
+msgstr "Alle verfügbaren Shotcode parameter: "
+
+#: includes/qr-code-admin.php:120
+#@ qr-code-widget
+msgid "Empty or missing qr_text will be replaced by site url."
+msgstr "Leerer oder fehlender qr_text parameter wird durch Website-URL ersetzt."
+
+#: includes/qr-code-admin.php:154
+#@ qr-code-widget
+msgid "<br />There are 4 ECC Levels in QR code as follows:<br />Level L - 7% of codewords can be restored <br />Level M - 15% of codewords can be restored <br />Level Q - 25% of codewords can be restored <br />Level H - 30% of codewords can be restored <br />"
+msgstr ""
+
+#: includes/qr-code-admin.php:163
+#@ qr-code-widget
+msgid "Don't cache image. Images are re-created every time and embedded in the HTML code"
+msgstr "Zwischenspeichern von Bildern Deaktivieren, Bilder werden jedes Mal neu erstellt und in den HTML-Code eingebettet"
+
+#: includes/qr-code-admin.php:257
+#@ qr-code-widget
+msgid "Default settings for <b>new</b> Widgets.<br /><b>Changes have no effect to existing Widgets.</b>"
+msgstr "Standard Einstellungen für <b>neue</b> Widgets.<br /><b>Änderungen haben keine Auswirkungen auf bestehende Widgets.</b>"
+
+#: includes/qr-code-admin.php:340
+#@ qr-code-widget
+msgid "There are 4 ECC Levels in QR code as follows:<br />Level L - 7% of codewords can be restored <br />Level M - 15% of codewords can be restored <br />Level Q - 25% of codewords can be restored <br />Level H - 30% of codewords can be restored <br />"
+msgstr ""
+
+#: includes/qr-code-admin.php:353
+#@ qr-code-widget
+msgid "Don't cache image. QR code will be created on the fly and embedded in to HTML"
+msgstr "Zwischenspeichern von Bildern Deaktivieren, Bilder werden jedes Mal neu erstellt und in den HTML-Code eingebettet"
+
+#: includes/qr-code-admin.php:402
+#@ qr-code-widget
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/qr-code-admin.php:466
+#@ qr-code-widget
+msgid "Cache folder already exists"
+msgstr "Cache Ordner bereits vorhanden"
+
+#: includes/qr-code-admin.php:555
+#@ qr-code-widget
+msgid "Your support makes a difference"
+msgstr "Ihre Unterstützung macht den Unterschied"
+
+#: includes/qr-code-admin.php:558
+#@ qr-code-widget
+msgid "Useful links"
+msgstr "Nützliche Links"
+
+#: includes/qr-code-admin.php:561
+#@ qr-code-widget
+msgid "Sponsors"
+msgstr "Sponsoren"
+
+#: includes/qr-code-admin.php:570
+#@ qr-code-widget
+msgid "Your awesome gift will ensure the continued development of this Plugin! Thanks for your consideration!"
+msgstr "Ihr fantastisches Geschenk wird für die weiter Entwicklung dieses Plugins sorgen! Vielen Dank für Ihre Aufmerksamkeit!"
+
+#: includes/qr-code-admin.php:575
+#@ qr-code-widget
+msgid "Like the plugin?"
+msgstr "Mögt ihr diesen Plugin?"
+
+#: includes/qr-code-admin.php:575
+#@ qr-code-widget
+msgid "Rate and review"
+msgstr "Bewerten und Kommentieren"
+
+#: includes/qr-code-admin.php:576
+#@ qr-code-widget
+msgid "Find my website at"
+msgstr "Meine Webseite"
+
+#: includes/qr-code-admin.php:577
+#@ qr-code-widget
+msgid "Found a issue? Submit it at"
+msgstr "Fehler gefunden? Melden Sie es unter"
+
+#. translators: plugin header field 'Version'
+#: qr-code-widget.php:0
+#@ qr-code-widget
+msgid "3.0.0"
+msgstr ""
+

@@ -1,0 +1,304 @@
+# Copyright (C) 2010 QR Code Widget
+# This file is distributed under the same license as the QR Code Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code Widget 2.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/qr-code-widget\n"
+"POT-Creation-Date: 2011-04-08 14:14:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: qrcode-admin.php:11
+msgid "QR code status report"
+msgstr ""
+
+#: qrcode-admin.php:15
+msgid "Cache directory is writable"
+msgstr ""
+
+#: qrcode-admin.php:21
+msgid "You have %d images in cache"
+msgstr ""
+
+#: qrcode-admin.php:24
+msgid ""
+"You are about to delete all images from Cache\\nThis action can not be "
+"undone!\\n OK to continue, Cancel to stop."
+msgstr ""
+
+#: qrcode-admin.php:24
+msgid "Clear Cache"
+msgstr ""
+
+#: qrcode-admin.php:28
+msgid "m221"
+"<p>The intermediate storage of images is disabled. Images are re-created "
+"every time and embedded in the HTML code. (CPU-heavy!)<br /> In order to "
+"save the CPU resources create the cache folder %s and make sure that the "
+"webserver can write to it.</p>"
+msgstr ""
+
+#: qrcode-admin.php:31
+msgid "Try to create Cache"
+msgstr ""
+
+#: qrcode-admin.php:41
+msgid "<h2>QR code default settings for shortcodes</h2>"
+msgstr ""
+
+#: qrcode-admin.php:63 qrcode-admin.php:238
+msgid "QR code settings"
+msgstr ""
+
+#: qrcode-admin.php:65
+msgid ""
+"You can define default values for your parameters using the \"Shortcode "
+"Defaults\" on the QR code page. Then if you miss a parameter the defaults "
+"will be used instead. For example [qr_code_display qr_code_fg=FF0000] will "
+"expand to \"[qr_code_display qr_code_format=png qr_code_size=2 qr_code_ecc=1 "
+"qr_code_trans_bg=0 qr_code_bg=ffffff qr_code_fg=FF0000 qr_text=http://"
+"yoursite no_cache=0 ]\".<br /> All Shortcode variables and parameters: "
+"[qr_code_display qr_code_format=\"png|jpg\" qr_code_size=\"1-10\" "
+"qr_code_ecc=\"0-3\" qr_code_trans_bg=\"0|1\" qr_code_bg=\"ffffff\" "
+"qr_code_fg=\"000000\" qr_text=\"string\" no_cache=\"0|1\"]<br /> Empty or "
+"missing qr_text will be replaced by site url."
+msgstr ""
+
+#: qrcode-admin.php:70 qrcode-admin.php:241 qr_code_suite.php:89
+msgid "QR code format"
+msgstr ""
+
+#: qrcode-admin.php:72 qrcode-admin.php:243 qr_code_suite.php:90
+msgid "PNG"
+msgstr ""
+
+#: qrcode-admin.php:73 qrcode-admin.php:244 qr_code_suite.php:91
+msgid "Jpeg"
+msgstr ""
+
+#: qrcode-admin.php:74
+msgid "Image format PNG or Jpeg."
+msgstr ""
+
+#: qrcode-admin.php:78 qrcode-admin.php:249 qr_code_suite.php:116
+msgid "QR code size"
+msgstr ""
+
+#: qrcode-admin.php:81 qrcode-admin.php:252 qr_code_suite.php:118
+msgid "Small"
+msgstr ""
+
+#: qrcode-admin.php:82 qrcode-admin.php:253 qr_code_suite.php:119
+msgid "Medium"
+msgstr ""
+
+#: qrcode-admin.php:83 qrcode-admin.php:254 qr_code_suite.php:120
+msgid "Large"
+msgstr ""
+
+#: qrcode-admin.php:84 qrcode-admin.php:255 qr_code_suite.php:121
+msgid "XXL"
+msgstr ""
+
+#: qrcode-admin.php:86
+msgid "Size of QR code image"
+msgstr ""
+
+#: qrcode-admin.php:90 qrcode-admin.php:261 qr_code_suite.php:107
+msgid "Level of error correction"
+msgstr ""
+
+#: qrcode-admin.php:99
+msgid ""
+"<br />There are 4 ECC Levels in QR code as follows:<br />Level L - 7% of "
+"codewords can be restored <br />Level M - 15% of codewords can be restored "
+"<br />Level Q - 25% of codewords can be restored <br />Level H - 30% of "
+"codewords can be restored <br />"
+msgstr ""
+
+#: qrcode-admin.php:104 qrcode-admin.php:273 qr_code_suite.php:137
+msgid "Disable Cache"
+msgstr ""
+
+#: qrcode-admin.php:106 qrcode-admin.php:131 qrcode-admin.php:275
+#: qrcode-admin.php:301 qr_code_suite.php:95
+msgid "No"
+msgstr ""
+
+#: qrcode-admin.php:107 qrcode-admin.php:132 qrcode-admin.php:276
+#: qrcode-admin.php:302 qr_code_suite.php:96 qr_code_suite.php:139
+msgid "Yes"
+msgstr ""
+
+#: qrcode-admin.php:108
+msgid ""
+"Don't cache image. Images are re-created every time and embedded in the HTML "
+"code"
+msgstr ""
+
+#: qrcode-admin.php:112
+msgid "Color settings"
+msgstr ""
+
+#: qrcode-admin.php:115
+msgid "Code Color"
+msgstr ""
+
+#: qrcode-admin.php:118 qrcode-admin.php:287
+msgid "Set Color for QR code"
+msgstr ""
+
+#: qrcode-admin.php:122 qrcode-admin.php:291 qr_code_suite.php:99
+msgid "Background Color"
+msgstr ""
+
+#: qrcode-admin.php:125 qrcode-admin.php:294
+msgid "Set background Color for QR code"
+msgstr ""
+
+#: qrcode-admin.php:129 qr_code_suite.php:94
+msgid "Transparent background"
+msgstr ""
+
+#: qrcode-admin.php:133 qrcode-admin.php:303
+msgid "Set transparency for QR code background. <b>PNG Only</b>"
+msgstr ""
+
+#: qrcode-admin.php:137 qrcode-admin.php:307
+msgid "Save Changes"
+msgstr ""
+
+#: qrcode-admin.php:142
+msgid "Test Images"
+msgstr ""
+
+#: qrcode-admin.php:146
+msgid "Shortcode"
+msgstr ""
+
+#: qrcode-admin.php:147
+msgid "Image"
+msgstr ""
+
+#: qrcode-admin.php:148
+msgid "HTML Source"
+msgstr ""
+
+#: qrcode-admin.php:191
+msgid "<h2>QR code default settings for Widgets</h2>"
+msgstr ""
+
+#: qrcode-admin.php:192
+msgid ""
+"Default settings for <b>new</b> Widgets.<br /><b>Changes have no effect to "
+"existing Widgets.</b>"
+msgstr ""
+
+#: qrcode-admin.php:214
+msgid "QR code Widget settings"
+msgstr ""
+
+#: qrcode-admin.php:217 qrcode-admin.php:220
+msgid "Widget Title"
+msgstr ""
+
+#: qrcode-admin.php:224 qr_code_suite.php:125
+msgid "Code to display before Widget"
+msgstr ""
+
+#: qrcode-admin.php:227 qrcode-admin.php:234
+msgid "Can be HTML"
+msgstr ""
+
+#: qrcode-admin.php:231 qr_code_suite.php:129
+msgid "Code to display after Widget"
+msgstr ""
+
+#: qrcode-admin.php:245
+msgid "Image format PNG or Jpeg"
+msgstr ""
+
+#: qrcode-admin.php:257
+msgid "Size of QR code"
+msgstr ""
+
+#: qrcode-admin.php:269
+msgid ""
+"There are 4 ECC Levels in QR code as follows:<br />Level L - 7% of codewords "
+"can be restored <br />Level M - 15% of codewords can be restored <br />Level "
+"Q - 25% of codewords can be restored <br />Level H - 30% of codewords can be "
+"restored <br />"
+msgstr ""
+
+#: qrcode-admin.php:277
+msgid ""
+"Don't cache image. QR code will be created on the fly and embedet in to HTML"
+msgstr ""
+
+#: qrcode-admin.php:281
+msgid "Color Settings"
+msgstr ""
+
+#: qrcode-admin.php:284
+msgid "code Color"
+msgstr ""
+
+#: qrcode-admin.php:299
+msgid "Background transparency"
+msgstr ""
+
+#: qrcode-admin.php:317
+msgid "Chache cleared"
+msgstr ""
+
+#: qrcode-admin.php:369
+msgid "Cache created"
+msgstr ""
+
+#: qrcode-admin.php:370
+msgid "Can't create Cache"
+msgstr ""
+
+#: qr_code_suite.php:85
+msgid "Title"
+msgstr ""
+
+#: qr_code_suite.php:94
+msgid "(png only)"
+msgstr ""
+
+#: qr_code_suite.php:103
+msgid "Code Color:"
+msgstr ""
+
+#: qr_code_suite.php:133
+msgid "Alternative text for this QR code"
+msgstr ""
+
+#: qr_code_suite.php:138
+msgid "NO"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "QR Code Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.poluschin.info/qr-code-widget/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "QR Code generator for your blog with Widget support"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wjatscheslaw Poluschin <wjatscheslaw@poluschin.info>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.poluschin.info"
+msgstr ""
